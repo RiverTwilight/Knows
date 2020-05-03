@@ -1,4 +1,5 @@
 import Head from 'next/head'
+//process.env.NODE_ENV != 'production' && require('../utils/Mock')
 
 export default ({ children, title = '成都外国语学校高新校区' }) => (
     <>
