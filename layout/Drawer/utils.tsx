@@ -3,9 +3,9 @@ import React from 'react'
 const Headmaster = () => {
     return (
         <div className="our-headmaster card">
-            <img className="lijun" src="/headermaster.jpg" />
+            <img className="lijun" src="/static/image/headermaster.jpg" />
             <div className="headmaster-title">
-                <img alt="我们的校长" src="/icon/person-outline.svg" width="20" height="20" />
+                <img alt="我们的校长" src="/static/icon/person-outline.svg" width="20" height="20" />
                 &nbsp;&nbsp;党支部书记、校长：李俊
             </div>
             <div className="headmaster-content">

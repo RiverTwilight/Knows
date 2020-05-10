@@ -1,5 +1,5 @@
 import React from 'react'
-import Text from '../utils/languages.js'
+import Text from '../utils/languages'
 import Axios from 'axios'
 import Snackbar from '../components/Snackbar'
 import '../scss/header.scss'
@@ -130,7 +130,7 @@ const Menu = (): React.ReactElement => {
     }
     return (
         <ul className="app-header-list">
-            <Text dictionary={dic} language={0} >
+            <Text dictionary={dic} language={1} >
                 {[
                     {
                         text: <Text home />,

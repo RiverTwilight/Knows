@@ -11,7 +11,7 @@ interface MarqueeProps {
  * 轮播图组件
  */
 
-export default class Marquee extends React.Component<MarqueeProps, { index: number; timer: any }>{
+export default class extends React.Component<MarqueeProps, { index: number; timer: any }>{
     constructor(props: MarqueeProps) {
         super(props);
         this.state = {
