@@ -1,7 +1,7 @@
 {
   "name": "nextjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A set of mature solutions for school official website|一套成熟的学校官网解决方案",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
