@@ -1,11 +1,11 @@
 import Mock from 'mockjs'
 
 const { Random } = Mock
-
+/*
 Mock.setup({
     timeout: 2000
 })
-
+*/
 Mock.mock(/\/newsDetail/,{
     data:{
         content: Random.cparagraph(10, 100),

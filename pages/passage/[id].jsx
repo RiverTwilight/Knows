@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Axios from 'axios'
-import Loader from '../../utils/PassageHolder'
-import Snackbar from '../../utils/Snackbar'
+import Loader from '../../components/PassageHolder'
+import Snackbar from '../../components/Snackbar'
 import '../../scss/typo.scss'
 
 export default () => {

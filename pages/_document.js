@@ -14,8 +14,6 @@ export default class extends Document {
                         content=""
                     />
                     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-
-                    <title>test</title>
                     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
                     <meta name="renderer" content="webkit" />
                     <meta name="force-rendering" content="webkit" />

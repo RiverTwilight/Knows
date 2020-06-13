@@ -11,7 +11,7 @@ export default ({ title, id, cover, summary, date }: Readonly<{
     return (
         <div className="passage-item" key={title}>
             <div className="passage-item-header">
-                <a href={'/passage?id=' + id} className="passage-item-header-title">
+                <a href={'/passage/' + id} className="passage-item-header-title">
                     {title.replace('&nbsp;', ' ')}
                 </a>
                 <div className="passage-item-header-date">{date}</div>

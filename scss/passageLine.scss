@@ -1,9 +1,9 @@
 $themeColor: #974578;
 
 /************文章列表******************/
-.passage {
-    padding: 14px 16px;
+.passage-list {
     background: #fff;
+    padding: 5px;
     .passage-item {
         border-bottom: 1px solid #ebebeb;
         padding: 4px 0;
@@ -48,36 +48,36 @@ $themeColor: #974578;
             }
         }
     }
-}
 
-.passage-item-content-cover-inner img {
-    object-fit: cover;
-    width: 180px;
-    height: 105px;
-    @media screen and (max-width: 640px) {
-        width: 162px;
-        height: 90px;
+    .passage-item-content-cover-inner img {
+        object-fit: cover;
+        width: 180px;
+        height: 105px;
+        @media screen and (max-width: 640px) {
+            width: 162px;
+            height: 90px;
+        }
+        overflow: hidden;
+        background-position: 50%;
+        background-size: cover;
+        border-radius: 4px;
+        margin-right: 5px;
     }
-    overflow: hidden;
-    background-position: 50%;
-    background-size: cover;
-    border-radius: 4px;
-    margin-right: 5px;
-}
 
-.passage-item-action {
-    font-size: 14px;
-    display: flex;
-    flex-direction: row-reverse;
-}
+    .passage-item-action {
+        font-size: 14px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
-.passage-more {
-    margin-top: 10px;
-    display: flex;
-    flex-basis: content;
-    justify-content: center;
-    cursor: pointer;
-    &:hover {
-        color: #444;
+    .passage-more {
+        margin-top: 10px;
+        display: flex;
+        flex-basis: content;
+        justify-content: center;
+        cursor: pointer;
+        &:hover {
+            color: #444;
+        }
     }
 }
